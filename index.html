@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laundry Premium | Bersih, Cepat, Terpercaya</title>
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="home">
+
+    <!-- NAVIGATION -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-soap"></i>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Layanan</a></li>
+                <li><a href="#order" class="order-btn">Pesan Sekarang</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-content">
+            <span class="badge">Layanan Premium #1 di Kota Anda</span>
+            <h1>Cucian Bersih Sempurna, <br>Tanpa Ribet!</h1>
+            <p>Kami mengurus pakaian Anda dengan teknologi cuci terbaru dan sabun ramah lingkungan. Antar-jemput GRATIS untuk area tertentu!</p>
+            <div class="hero-btns">
+                <a href="#order" class="btn-primary">Jemput Cucian Saya</a>
+                <a href="#services" class="btn-secondary">Lihat Layanan <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="features">
+        <div class="feature-item">
+            <div class="icon"><i class="fas fa-truck-fast"></i></div>
+            <h3>Antar Jemput</h3>
+            <p>Hemat waktu Anda, biar kami yang jemput dan antar kembali.</p>
+        </div>
+        <div class="feature-item active">
+            <div class="icon"><i class="fas fa-bolt"></i></div>
+            <h3>Kilat 24 Jam</h3>
+            <p>Butuh cepat? Layanan ekspres kami siap dalam satu hari.</p>
+        </div>
+        <div class="feature-item">
+            <div class="icon"><i class="fas fa-leaf"></i></div>
+            <h3>Eco-Friendly</h3>
+            <p>Menggunakan deterjen ramah lingkungan yang aman untuk kulit.</p>
+        </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section id="services" class="services">
+        <div class="section-header">
+            <h2>Layanan Kami</h2>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-tshirt"></i></div>
+                <h3>Cuci Setrika</h3>
+                <p>Pakaian bersih, harum, dan rapi siap pakai dalam waktu singkat.</p>
+                <span class="price-start">Mulai dari Rp 8.000/kg</span>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-wind"></i></div>
+                <h3>Dry Cleaning</h3>
+                <p>Khusus untuk jas, kebaya, dan kain sensitif lainnya.</p>
+                <span class="price-start">Mulai dari Rp 35.000/pc</span>
+            </div>
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-bed"></i></div>
+                <h3>Bedding & Linen</h3>
+                <p>Cuci bedsheet, selimut, dan boneka dengan sterilisasi penuh.</p>
+                <span class="price-start">Mulai dari Rp 20.000/set</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ORDER FORM SECTION -->
+    <section id="order" class="order-section">
+        <div class="order-container">
+            <div class="order-info">
+                <h2>Siap Untuk <br><span>Bebas dari Cucian?</span></h2>
+                <p>Isi form di samping untuk menjadwalkan penjemputan. Tim kami akan segera menghubungi Anda dalam waktu 15 menit.</p>
+                <div class="contact-quick">
+                    <div class="c-item"><i class="fab fa-whatsapp"></i> 0812-3456-7890</div>
+                    <div class="c-item"><i class="fas fa-location-dot"></i> Jl. Kebersihan No. 123</div>
+                </div>
+            </div>
+            <form class="order-form">
+                <div class="form-group">
+                    <label>Nama Lengkap</label>
+                    <input type="text" placeholder="Masukkan nama Anda">
+                    <span class="error-msg"></span>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>No. WhatsApp</label>
+                        <input type="tel" placeholder="0812...">
+                        <span class="error-msg"></span>
+                    </div>
+                    <div class="form-group">
+                        <label>Layanan</label>
+                        <select>
+                            <option>Cuci Setrika (Kilat)</option>
+                            <option>Cuci Setrika (Reguler)</option>
+                            <option>Dry Cleaning</option>
+                            <option>Bedding & Linen</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Alamat Penjemputan</label>
+                    <textarea placeholder="Tulis alamat lengkap Anda..."></textarea>
+                    <span class="error-msg"></span>
+                </div>
+                <button type="submit" class="submit-btn">Jadwalkan Jemput Sekarang</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- BOTTOM NAV FOR MOBILE -->
+    <div class="bottom-nav">
+        <a href="#home" class="bottom-nav-item active">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </a>
+        <a href="#services" class="bottom-nav-item">
+            <i class="fas fa-soap"></i>
+            <span>Layanan</span>
+        </a>
+        <a href="#order" class="bottom-nav-item">
+            <i class="fas fa-calendar-check"></i>
+            <span>Pesan</span>
+        </a>
+    </div>
+
+    <!-- CUSTOM ALERT MODAL -->
+    <div id="successModal" class="modal-overlay">
+        <div class="modal-card">
+            <div class="modal-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h3>Pesan Terkirim!</h3>
+            <p id="successMessage">Pesanan Anda telah kami terima. Tim kami akan segera menghubungi Anda melalui WhatsApp.</p>
+            <button onclick="closeModal()" class="modal-btn">Siap, Terimakasih!</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Laundry Services. Developed by <span class="highlight">Antigravity Design</span></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
